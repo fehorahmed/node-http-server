@@ -34,42 +34,8 @@ export const view = (content) => `<!DOCTYPE html>
                                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                                 <meta http-equiv="X-UA-Compatible" content="ie=edge">
                                 <title>Simple HTML Template</title>
-                                <style>
-                                    body {
-                                        font-family: Arial, sans-serif;
-                                        margin: 0;
-                                        padding: 0;
-                                        background-color: #f4f4f4;
-                                    }
-                                    header {
-                                        background-color: #333;
-                                        color: #fff;
-                                        padding: 1rem 0;
-                                        text-align: center;
-                                    }
-                                    nav {
-                                        text-align: center;
-                                        margin: 20px 0;
-                                    }
-                                    nav a {
-                                        margin: 0 15px;
-                                        text-decoration: none;
-                                        color: #333;
-                                    }
-                                    main {
-                                        padding: 20px;
-                                        // text-align: center;
-                                    }
-                                    footer {
-                                        background-color: #333;
-                                        color: #fff;
-                                        text-align: center;
-                                        padding: 10px 0;
-                                        position: fixed;
-                                        bottom: 0;
-                                        width: 100%;
-                                    }
-                                </style>
+                                <link rel="stylesheet" href="/asset/css/style.css">
+                                
                             </head>
                             <body>
 
